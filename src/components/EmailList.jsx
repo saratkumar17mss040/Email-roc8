@@ -9,8 +9,8 @@ export default function EmailList({ emailList, onEmailClick }) {
     );
   }
   return (
-    <div className="cursor-pointer flex-1" onClick={onEmailClick}>
-      <ul>
+    <div className="m-4 cursor-pointer flex-1 w-full" onClick={onEmailClick}>
+      <ul className="flex flex-col gap-4">
         {emailList.map((email) => (
           <EmailCard key={email.id} email={email} />
         ))}

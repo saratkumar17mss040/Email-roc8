@@ -130,9 +130,9 @@ export default function Email() {
 
   return (
     <>
-      <h1>Email App from sarath 😇!</h1>
       <div className="flex justify-between">
-        <div className="flex flex-col">
+        <div className="flex items-center flex-col mx-auto">
+          <h1 className="m-4 font-bold text-xl">Simple Email like App 😇!</h1>
           <EmailFilterWithErrorBoundary />
           <EmailListWithErrorBoundary
             emailList={filteredEmails}

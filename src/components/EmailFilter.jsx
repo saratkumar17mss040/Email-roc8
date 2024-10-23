@@ -16,12 +16,12 @@ export default function EmailFilter() {
   }
 
   return (
-    <div className="flex justify-around my-4">
-      Filter by:
+    <div className="flex justify-around my-4 font-semibold">
+      <p className="px-4 py-2">Filter by:</p>
       {filters.map((filter) => (
         <button
           key={filter.value}
-          className={`px-4 py-2 rounded-full ${
+          className={`px-4 py-2 rounded-full  ${
             emailFilter === filter.value ? "bg-gray-200" : ""
           }`}
           onClick={() => handleFilterChange(filter.value)}

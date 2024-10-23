@@ -11,7 +11,7 @@ export default function EmailPagination({ totalEmailItems }) {
           <button
             onClick={() => setPageNo(page)}
             key={page}
-            className="flex justify-center items-center bg-pink-500 text-white rounded-full w-4 h-4 p-4 mr-2 text-center"
+            className="flex justify-center items-center bg-pink-500 text-white rounded-full w-4 h-4 p-4 m-2 text-center"
           >
             {page}
           </button>
