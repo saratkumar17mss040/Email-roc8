@@ -37,3 +37,4 @@ const savedDateRange = Cookies.get('date_range') ? JSON.parse(Cookies.get('date_
 Cookies.remove('filter_preferences');
 Cookies.remove('date_range');
 
+From main branch
